@@ -1,8 +1,8 @@
 # Data Structures and Algorithms
 
-Hi, I’m **Halar Ahmed**. I’ve just started my journey into **Data Structures and Algorithms (DSA)** in **C++** and created this repository to keep track of my progress. 
+I’ve just started my journey into **Data Structures and Algorithms (DSA)** in **C++** and created this repository to keep track of my progress. 
 
-I’ll be uploading all my lecture notes and code files here as soon as I watch new lectures on YouTube. This way I can have everything organized in one place and look back at how much I’ve learned over time.
+I’ll be uploading all my lecture notes and code files here as soon as I watch new lectures on **YouTube**. This way I can have everything organized in one place and look back at how much I’ve learned over time.
 
 ---
 
@@ -25,4 +25,4 @@ I wanted a dedicated space to:
 
 ## How to use?
 
-Just browse through the folders and files here on GitHub to see my code and notes.  
+Just browse through the folders and files here on **GitHub** to see my code and notes.  
