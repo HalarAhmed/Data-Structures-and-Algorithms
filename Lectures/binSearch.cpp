@@ -1,3 +1,4 @@
+// Lecture: Binary Search in Arrays
 using namespace std;
 #include<iostream>
 #include<vector>
