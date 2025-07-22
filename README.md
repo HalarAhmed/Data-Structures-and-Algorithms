@@ -1,28 +1,36 @@
 # Data Structures and Algorithms
 
-I’ve just started my journey into **Data Structures and Algorithms (DSA)** in **C++** and created this repository to keep track of my progress. 
+I’ve just started my DSA journey and this repo is going to be my personal tracker for everything I learn. Whether it’s a YouTube lecture, or a problem solved, or simply my understanding of any algorithm on LeetCode or GFG — it all goes here.
 
-I’ll be uploading all my lecture notes and code files here as soon as I watch new lectures on **YouTube**. This way I can have everything organized in one place and look back at how much I’ve learned over time.
-
----
-
-## What’s in this repo?
-
-- C++ implementations of DSA concepts covered in lectures
-- Code files directly from my personal notes
-- Some small practice problems and their solutions
+I’ll be uploading:
+- Code and notes from every lecture I watch
+- Solutions to DSA problems from platforms like LeetCode, GFG, etc.
+- Explanations (wherever I feel it’s needed for future revision)
 
 ---
 
-## Why this repo?
+## Folder Structure
 
-I wanted a dedicated space to:
-- Document my learning process
-- Upload my code regularly after each lecture
-- Make it easier to review and revise whenever needed
+- `lectures/`  
+  This folder contains code files and notes from DSA lectures I watch.  
+  I mostly follow structured playlists on YouTube — one concept at a time.
+
+- `problems/`  
+  This folder has all the problems I solve from platforms like LeetCode, GFG, etc.  
+  Each subfolder may contain:
+    - Problem link (in comments or markdown)
+    - Code solution
+    - Short notes or approach (if required)
 
 ---
 
-## How to use?
+## Why I’m Doing This
 
-Just browse through the folders and files here on **GitHub** to see my code and notes.  
+- To stay consistent and not lose track of what I’ve learned.
+- To build a personal library of concepts and solutions.
+- For future revision — everything in one place.
+- To make myself accountable and regular.
+
+---
+
+## Started: July 2025
