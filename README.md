@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-I’ve just started my DSA journey and this repo is going to be my personal tracker for everything I learn. Whether it’s a YouTube lecture, or a problem solved, or simply my understanding of any algorithm on LeetCode or GFG — it all goes here.
+I’ve just started my DSA journey and this repo is going to be my personal tracker for everything I learn. Whether it’s a YouTube lecture, or a problem solved, or simply my understanding of any algorithm on LeetCode or GFG or HackerRank — it all goes here.
 
 I’ll be uploading:
 - Code and notes from every lecture I watch
