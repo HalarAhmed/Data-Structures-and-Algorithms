@@ -3,53 +3,57 @@ using namespace std;
 void merge(vector<int>&arr,int st,int mid,int end)
 {
 	vector<int>temp;
-	int i=st;
-	int j=mid+1;
-	// sorting the elements and then storing them into a temporary array:
-	while(i<=mid && j<=end)
+	int left=st;
+	int right=mid+1;
+	while(left<=mid && right<=end)
 	{
-		if(arr[i]<=arr[j])
+		if(arr[left]<=arr[right])
 		{
-			temp.push_back(arr[i]);
-			i++;
+			temp.push_back(arr[left]);
+			++left;
 		}
 		else
 		{
-			temp.push_back(arr[j]);
-			j++;
+			temp.push_back(arr[right]);
+			++right;
 		}
 	}
-	// inserting the remaining elements
-	while(i<=mid)
+	while(left<=mid)
 	{
-		temp.push_back(arr[i]);
-		i++;
+		temp.push_back(arr[left]);
+		++left;
 	}
-	while(j<=end)
+	while(right<=end)
 	{
-		temp.push_back(arr[j]);
-		j++;
+		temp.push_back(arr[right]);
+		++right;
 	}
-	// inserting the elements into the array:
-	for(int i=0;i<temp.size();i++)
+	for(int i=st;i<=end;i++)
 	{
-		arr[i+st]=temp[i];
+		arr[i]=temp[i-st];
 	}
 }
 void mergeSort(vector<int>&arr,int st,int end)
 {
-	if(st<end)
+	if(st>=end)
 	{
-		int mid=st+(end-st)/2;	// mid
-		
-		mergeSort(arr,st,mid);	// left half
-		mergeSort(arr,mid+1,end);	// right half
-		
-		// merging the array by backtracking:
-		merge(arr,st,mid,end);
+		return;
+	}
+	int mid=st+(end-st)/2;
+	mergeSort(arr,st,mid);
+	mergeSort(arr,mid+1,end);
+	merge(arr,st,mid,end);
+}
+void print(vector<int>&arr)
+{
+	for(int i=0;i<arr.size();++i)
+	{
+		cout<<arr[i]<<" ";
 	}
 }
 int main()
 {
-	
+	vector<int>arr={3,2,4,3,1};
+	mergeSort(arr,0,4);
+	print(arr);
 }
